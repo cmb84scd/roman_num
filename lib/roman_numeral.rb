@@ -2,8 +2,10 @@ class RomanNumeral
   def convert(n)
     if n == 0
       ""
-    else
+    elsif n < 4
       "I" * n
+    else
+      "IV"
     end
   end
 end
