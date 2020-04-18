@@ -12,4 +12,8 @@ describe 'convert to Roman numerals' do
   it 'returns "II" when passed 2' do
     expect(RomanNumeral.new.convert(2)).to eq "II"
   end
+
+  it 'returns "III" when passed 3' do
+    expect(RomanNumeral.new.convert(3)).to eq "III"
+  end
 end
