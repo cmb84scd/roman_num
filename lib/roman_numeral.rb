@@ -4,8 +4,10 @@ class RomanNumeral
       ""
     elsif n < 4
       "I" * n
-    else
+    elsif n == 4
       "IV"
+    else
+      "V"
     end
   end
 end

@@ -20,4 +20,8 @@ describe 'convert to Roman numerals' do
   it 'returns "IV" when passed 4' do
     expect(RomanNumeral.new.convert(4)).to eq "IV"
   end
+
+  it 'returns "V" when passed 5' do
+    expect(RomanNumeral.new.convert(5)).to eq "V"
+  end
 end
