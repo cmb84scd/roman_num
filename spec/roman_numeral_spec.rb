@@ -24,4 +24,8 @@ describe 'convert to Roman numerals' do
   it 'returns "V" when passed 5' do
     expect(RomanNumeral.new.convert(5)).to eq "V"
   end
+
+  it 'returns "VI" when passed 6' do
+    expect(RomanNumeral.new.convert(6)).to eq "VI"
+  end
 end
